@@ -18,6 +18,7 @@ Config.Items = {
     "aluminum",
     "steel",
     "glass",
+    "rubber",
 }
 
 Config.VehicleCount = 40

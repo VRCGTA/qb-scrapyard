@@ -34,8 +34,8 @@ RegisterNetEvent('qb-scrapyard:server:ScrapVehicle', function(listKey)
             TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items[item], 'add')
             Wait(500)
         end
-        local Luck = math.random(1, 8)
-        local Odd = math.random(1, 8)
+        local Luck = math.random(1, 1)
+        local Odd = math.random(1, 1)
         if Luck == Odd then
             local random = math.random(10, 20)
             Player.Functions.AddItem("rubber", random)
